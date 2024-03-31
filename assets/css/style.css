@@ -111,7 +111,6 @@ a {
 }
 
 #wave img {
-  /* unica gambiarra é esse margin-bottom negativo porque a imagem tras essa borda sem nada nela na hora que exporta do figma  */
   margin-bottom : -4px;
   width: 100%;
 }
