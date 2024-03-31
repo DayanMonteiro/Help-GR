@@ -27,9 +27,21 @@ body {
 
 
 .text-container {
+    /* Essa propriedade define o elemento como um container flexível, permitindo que seus itens filhos se comportem de acordo com as regras do flexbox. 
+  resumindo soltei eles dentro da div pra fazer o que eu quisesse 
+  */
   display: flex;
+  /*
+    Esta propriedade controla a maneira como os itens são alinhados no eixo transversal fazendo com que os itens fiquem centralizados verticalmente dentro do container.
+  */
   align-items: center;
+  /*
+    Esta propriedade controla a maneira como os itens são alinhados ao longo do eixo principal, fazendo os itens são centralizados horizontalmente dentro do container.
+  */
   justify-content: center;
+  /*
+  para fazer com que os itens fiquem organizados em uma coluna vertical
+  */
   flex-direction: column;
 }
 
@@ -74,10 +86,15 @@ a {
 
 }
 
-
 .conteiner-footer {
+  /* Essa propriedade define o elemento como um container flexível, permitindo que seus itens filhos se comportem de acordo com as regras do flexbox. 
+  resumindo soltei eles dentro da div pra fazer o que eu quisesse 
+  */
   display: flex;
+  /* Essa propriedade especifica a direção principal dos itens dentro do container 
+  ou seja com row os itens são posicionados em uma linha horizontal */
   flex-direction: row;
+  /* alinhas eles ao centro */
   align-items: center;
   justify-content: center;
 }
@@ -94,6 +111,7 @@ a {
 }
 
 #wave img {
+  /* unica gambiarra é esse margin-bottom negativo porque a imagem tras essa borda sem nada nela na hora que exporta do figma  */
   margin-bottom : -4px;
   width: 100%;
 }
