@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 629px;
+  height: 486px;
+  padding: 30px;
+  position: relative;
+}
+
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+h1 span {
+  color: #EE24FF;
+  font-weight: bold;
+}
+
+.text-container p {
+  color: #828282;
+  line-height: 22px;
+}
+
+.ofertas {
+  margin-top: 32px;
+  margin-bottom: 64px;
+  color: #828282;
+}
+
+.preços {
+  color: #3F3D56;
+}
+
+a {
+  font-weight: bold;
+  color: #3F3D56;
+  text-decoration: none;
+}
+
+#footer {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+
+}
+
+
+.conteiner-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer a+a {
+  margin-left: 42px;
+}
+
+#line {
+  width: 391px;
+  height: 0;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 16px;
+}
+
+#wave img {
+  margin-bottom : -4px;
+  width: 100%;
+}
